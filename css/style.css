@@ -1,0 +1,52 @@
+#logo{
+	width: 100px;
+}
+
+a:hover {
+  font-size: 18px;
+}
+
+h1{
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+
+.opaca{
+	opacity: .6;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+iframe:hover {
+  width: 600px;
+  height: 350px;
+}
+
+nav{
+	font-family: 'Comfortaa', cursive;
+    background-color: black;
+}
+
+footer{
+	font-family: 'Comfortaa', cursive;
+    background-color: #204051;
+}
+.lenguaje img{
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+}
+
+.carr img{
+	height: 550px;
+}
+
+.texto{
+	font-size: 20px;
+}
+
+iframe{
+	display:block;
+}

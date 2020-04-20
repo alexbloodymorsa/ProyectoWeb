@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Alejandro Barreiro Valdez</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"> <!--Google Fonts-->
+</head>
+
+<body>
+	<!--Header-->
+	<header>
+		<!--navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+			<a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse " id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link " href="index.html">Acerca de mi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Mis gustos<span class="sr-only">(current)</span>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="libros.html">Libros favoritos</a>
+							<a class="dropdown-item" href="hobbies.html">Hobbies</a>
+							<a class="dropdown-item" href="gustos.html">Música</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="formulario.html" tabindex="-1" aria-disabled="true">Formulario</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Main -->
+	<main>
+		<!-- Breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="libros.html">Libros</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Hobbies</li>
+		    <li class="breadcrumb-item"><a href="gustos.html">Música</a></li>
+		  </ol>
+		</nav>
+
+		<!-- List Group -->
+		<div class="row">
+		  <div class="col-4">
+		    <div class="list-group texto" id="list-tab" role="tablist">
+		      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Lectura</a>
+		      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Música</a>
+		      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Deportes</a>
+		      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Programación</a>
+		    </div>
+		  </div>
+		  <div class="col-8">
+		    <div class="tab-content text-center texto" id="nav-tabContent">
+		      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><br><br>La lectura es parte esencial de mi vida. Me la pasando casi todo mi tiempo libro leyendo. Leo artículos, noticias o libros. Por lo que este es el hobbie al que más le dedico tiempo y de los que más me gusta.</div>
+		      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><br><br>La música me gusta mucho porque es algo que me da cierto tipo de paz. Me entretengo mucho buscando nueva música y tambiñen haciéndola. La música me desestresa y me ha hecho darme cuenta de muchas cosas en la vida.</div>
+		      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><br><br>Soy un seguidor de casi todos los deportes existentes y además he practicado muchos en algún momento de mi vida. Me gusta el futbol, el basquetbol, el volleybol, el béisbol, el boxeo y el futbol americano. </div>
+		      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"><br><br>Además de ser parte de mi carrera, la programación es algo que disfruto mucho. Leo muchos artículos y veo videos sobre programadores e información sobre diferentes lenguajes de programación.</div>
+		    </div>
+		  </div>
+		</div>
+	</main>
+
+	<!--Footer-->
+	<footer class=" mt-4">
+		<div class="text-center">
+			<div class="text-white card-body">
+				Alejandro Barreiro Valdez.<br>Estudiante de Ing. en Computación en la UNAM. 
+				<h5>Redes sociales:</h5>
+				<a target="_blank" href="https://www.facebook.com/alejandro.barreirovaldez">
+					<img class="opaca" src="img/icons8-facebook-48.png" alt="Facebook">
+				</a>
+				<a target="_blank" href="https://www.instagram.com/alexbloodymorsa/?hl=es-la">
+					<img class="opaca" src="img/icons8-instagram-48.png" alt="Instagram">
+				</a>
+				<a target="_blank" href="https://twitter.com/alexbloodymorsa">
+					<img class="opaca" src="img/icons8-twitter-48.png" alt="Twitter">
+				</a>
+				<p>Contacto: alex.barreiro.v@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
